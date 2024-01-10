@@ -1,0 +1,313 @@
+
+* {
+    font-family: cursive;
+    font-weight: bold;
+    border: none;
+}
+
+/* Outer div main */
+#container {
+    height: auto;
+    width: 100%;
+
+    margin: auto;
+    /* border: none; */
+
+}
+
+#container>h2 {
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: 40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* First Navbar */
+#firstnav {
+    height: 50px;
+    width: 100%;
+    
+    background-color: rgb(233, 90, 90);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    align-items: center;
+
+}
+
+#firstnav>div {
+    height: 100%;
+    width: 30%;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#firstnavone {
+
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#firstnavtwo,
+#firstnavthree {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Second Navbar */
+#secondnav {
+    height: 80px;
+    width: 100%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+
+}
+
+#logo {
+    height: 100%;
+    width: 30%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#logo>img {
+    height: 50%;
+    width: 30%;
+
+}
+
+
+#mainnav {
+    height: 100%;
+    width: 40%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+#secondnav .mainNavAnchor {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#secondnav .mainNavAnchor:hover {
+    color: red;
+}
+
+#login {
+    height: 100%;
+    width: 30%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+/* Search Bar Section */
+#thirdnav {
+
+    height: 50px;
+    width: auto;
+    margin: auto;
+    
+    padding: 5px;
+    display: flex;
+}
+
+#searchnav {
+    height: auto;
+    width: 100%;
+    
+    background-color: white;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.search-container{
+background: #fff;
+height: 30px;
+border-radius: 30px;
+padding: 10px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+transition: 0.8s;
+box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+      -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+
+}
+
+.search-container .search-input{
+background: transparent;
+border: none;
+outline:none;
+width: 100%;
+font-weight: 500;
+font-size: 16px;
+transition: 0.8s;
+
+}
+
+.search-container .search-btn .fas{
+color: red;
+width: 100%;
+}
+
+/* my image */
+#myimage {
+    height: 20%;
+    width: 100%;
+    border: 2px solid green;
+}
+
+#myimage>img {
+    height: 100%;
+    width: 100%;
+
+}
+
+/* New Launch */
+#newlaunch {
+    height: 700px;
+    width: 100;
+    margin: auto;
+    display: flex;
+ 
+}
+
+#newlaunch>div {
+    height: auto;
+    width: 50%;
+    padding: 15px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#newlaunch img {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* Playtime Essential */
+#playtime {
+    height: 800px;
+    width: 100%;
+    
+    margin: auto;
+}
+
+#playtime>img {
+    height: 100%;
+    width: 100%;
+}
+
+/* High Rated Product Pet */
+#highratedpet {
+    height: 130px;
+    width: 100%;
+    
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#highratedpet>img {
+    height: 100%;
+    width: 100%;
+}
+
+/* gif section */
+#gifsection {
+    height: 450px;
+    width: 100%;
+    
+    margin: auto;
+    display: flex;
+}
+
+#gifsection>div {
+
+    height: 100%;
+    width: 16.8%;
+    
+    justify-content: space-evenly;
+    align-content: space-around;
+    gap: 10px;
+    padding: 2px;
+}
+
+#gifsection>div>img {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+/* Next New Launch Section */
+#nextnewlaunch {
+    height: 650px;
+    width: 100%;
+    
+    margin: auto;
+}
+
+#nextnewlaunch>img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Exlusive brand  */
+
+#exclusiveBrand {
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#exclusiveBrand>div {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#exclusiveBrand img {
+    height: 100%;
+    width: 100%;
+    /*cant set in div */
+}
